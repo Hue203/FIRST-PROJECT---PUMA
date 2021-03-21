@@ -1,0 +1,203 @@
+:root {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.body {
+  height: 100%;
+  margin: 0;
+  background-image: url(https://thewebconsultancy.co.uk/wp-content/uploads/2019/08/website-design-background-1.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*margin-right:5*/
+/* nav */
+nav {
+  background-color: #ffb79d;
+  height: 80px;
+  margin-top: -5px;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+  height: 80px;
+}
+nav a {
+  text-decoration: none;
+}
+/* nav a:link {
+  background-color: hotpink; */
+
+nav a:visited {
+  background-color: mediumspringgreen;
+}
+nav a:hover {
+  background-color: #1ed760;
+}
+nav span {
+  pointer-events: none;
+}
+nav .links {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+}
+nav {
+  width: 100%;
+  position: fixed;
+}
+
+/*header*/
+
+header {
+  padding-top: 17rem;
+  padding-bottom: 20rem;
+  text-align: center;
+  color: white;
+  background-color: lightskyblue;
+}
+
+header .head-sub {
+  /* border:solid;green; */
+  /* max-width: 720px; */
+  font-size: 70px;
+}
+
+header .title1 {
+  font-size: 50px;
+}
+
+header .button1 {
+  background-color: SeaGreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*section1*/
+
+#section1 {
+  /* border: blue solid; */
+  color: white;
+  /* background-color: moccasin; */
+  padding-top: 160px;
+  position: static;
+}
+#section1 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#section1 .img1 {
+  height: auto;
+  border-radius: 50%;
+  width: 300px;
+  border: solid gold;
+}
+#section1 .title {
+  font-size: 40px;
+  display: flex;
+  align-self: center;
+  /* border: darkorchid solid; */
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+}
+#section1 .title2 {
+  /* border: yellow solid; */
+
+  text-align: center;
+  font-size: 20px;
+}
+
+#section1 .b {
+  margin-top: 100px;
+  text-align: initial;
+  list-style-type: square;
+}
+#section1 .content {
+  /* border: chartreuse solid; */
+  width: 600px;
+}
+/*section2*/
+#section2 {
+  /* padding-top: 200px; */
+}
+#section2 .container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  padding-top: 200px;
+}
+#section2 .title {
+  font-size: 40px;
+  display: flex;
+  align-self: center;
+  /* border: darkorchid solid; */
+  /* text-orientation: upright;
+  writing-mode: vertical-rl; */
+}
+#section2 .content {
+  font-size: 10px;
+}
+/*section3*/
+
+#section3 {
+  padding-top: 100px;
+}
+#section3 .container {
+  /* display: flex;
+  border: goldenrod solid;
+  flex-direction: row; */
+}
+#section3 .skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section3 .dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*section4*/
+
+#section4 .a {
+  list-style-type: circle;
+}
+/*footer*/
+#footer {
+  padding-top: 200px;
+}
+#footer .container {
+  /* border: lightcoral solid; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#footer .footer-left {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
