@@ -100,7 +100,7 @@ header .button1 {
   color: white;
   /* background-color: moccasin; */
   padding-top: 160px;
-  height: 951px;
+  height: 800px;
 }
 #section1 .container {
   display: flex;
@@ -194,6 +194,10 @@ header .button1 {
   justify-content: space-between;
 }
 #section3 .title {
+  height: auto;
+  border-radius: 40%;
+  /* width: 300px; */
+  border: solid gold;
   /* border: solid; */
   display: flex;
   /* flex-direction: row; */
