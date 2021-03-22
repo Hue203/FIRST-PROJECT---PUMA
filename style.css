@@ -147,7 +147,7 @@ header .button1 {
 #section2 .container {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-right: 0;
   padding-left: 0;
 }
@@ -185,7 +185,7 @@ header .button1 {
 /*section3*/
 
 #section3 {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 #section3 .container {
   display: flex;
